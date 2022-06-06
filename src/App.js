@@ -3,7 +3,7 @@ import "./App.scss";
 import { Cart } from "./components/Cart/Cart";
 import { Header } from "./components/Layout/Header";
 import { Meals } from "./components/Meals/Meals";
-import { CartProvider } from "./Store/CartContext";
+import { CartProvider } from "./Store/CartProvider";
 
 function App() {
   const [cartIsShown, setCartIsShown] = useState(false);
