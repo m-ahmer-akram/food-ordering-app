@@ -45,16 +45,6 @@ export const AvailableMeals = () => {
       <Card>
         <ul>
           {mealsList}
-          {/* // <li className={styles.meal} key={meal.id}>
-            //   <div>
-            //     <h3>{meal.name}</h3>
-            //     <div className={styles.description}>{meal.description}</div>
-            //     <div className={styles.price}>${meal.price.toFixed(2)}</div>
-            //   </div>
-            //   <div>
-            //     
-            //   </div>
-            // </li> */}
         </ul>
       </Card>
     </section>
